@@ -29,7 +29,7 @@
 
       @foreach($nombre as $cod)
    
-      <a href="{{URL::to('/Archivo/add/?asig='.$cod->codigo)}}" class="list-group-item"><p><font size=2><center>{{$cod->nombre}}</center></font></p></a>
+      <a href="{{URL::to('/Archivoadd/?asig='.$cod->codigo)}}" class="list-group-item"><p><font size=2><center>{{$cod->nombre}}</center></font></p></a>
 
         @endforeach
 

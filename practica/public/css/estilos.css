@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('images/tweed.png');
+}
+
+#contenido{
+    padding: 0px;
+    margin: 0 auto;
+    background-color: transparent;
+    width: 960px;
+    height: 900px;
+}
+#contenedor{
+   margin: auto;
+   width: 578px;
+}
+ 
+#footer{
+width: 960px;
+height: 150px;
+margin: -150px auto 0;
+}

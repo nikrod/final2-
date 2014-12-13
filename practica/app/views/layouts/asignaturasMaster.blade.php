@@ -30,11 +30,11 @@
                             <?php 
                             if(Auth::check()) {
                                 ?>                                
-                               <?php if (Request::is('logout')) { echo 'class="active"'; } ?><a href="/logout"><button type="button" class="btn btn-primary navbar-btn"><i class="glyphicon glyphicon-user" aria-hidden="true"></i>Cerrar Sesión</button></a>
+                               <?php if (Request::is('logout')) { echo 'class="active"'; } ?><a href="{{URL::to('/logout')}}"><button type="button" class="btn btn-primary navbar-btn"><i class="glyphicon glyphicon-user" aria-hidden="true"></i>Cerrar Sesión</button></a>
                             <?php
                             } else {
                                 ?>
-                                <li <?php if (Request::is('login')) { echo 'class="active"'; } ?>><a href="login">Login</a></li>
+                                <li <?php if (Request::is('login')) { echo 'class="active"'; } ?>><a href="{{URL::to('login')}}">Login</a></li>
                                 <?php
                             }
                             ?>

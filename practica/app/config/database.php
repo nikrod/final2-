@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'softguare',
-			'username'  => '',
-			'password'  => 'damuse2141',
+			'host'      => '127.0.0.1',
+			'database'  => 'daviladb',
+			'username'  => 'damuse',
+			'password'  => '2141',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
@@ -65,10 +65,10 @@ return array(
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
-			'host'     => 'localhost',
-			'database' => 'kkk',
-			'username' => 'niko',
-			'password' => 'asd123',
+			'host'     => '127.0.0.1',
+			'database' => 'daviladb',
+			'username' => 'davila',
+			'password' => 'damuse2141',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',

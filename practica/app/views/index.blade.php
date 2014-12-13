@@ -17,7 +17,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="./">Administración de Evaluaciones UTEM</a>
+          <a class="navbar-brand" href="{{URL::to('./')}}">Administración de Evaluaciones UTEM</a>
         </div>
 
           <ul class="nav navbar-nav navbar-right">

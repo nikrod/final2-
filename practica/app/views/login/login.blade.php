@@ -29,7 +29,7 @@
       <div class="container" style="width: 400px;">
         <div class="panel panel-default" style="margin-top: 100px;">
         <div class="panel-heading">
-        <form class="form-signin" method="post" action="/">
+        <form class="form-signin" method="post" action="{{URL::to('/login')}}">
 
         <h2 class="form-signin-heading" style="font-size:25px;">Inicio de sesión</h2>
 
